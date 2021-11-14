@@ -6,14 +6,10 @@
     whether a number is odd or not. */
 
 
-function isOdd(num) {
-  if (num % 2 === 0) {
-    console.log(num + "is odd" );
-  } else {
-    console.log(num + "is even");
-  }
-  return num;
-}
+ const isOdd  = function (num) {
+  return num % 2 !== 0;
+ }
+
 
 console.log("3 is odd: " + isOdd(3));
 console.log("8 is odd: " + isOdd(8));
